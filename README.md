@@ -35,7 +35,7 @@ pip3 install -U --user keras_preprocessing==1.0.5 --no-deps
 ```
 
 **Bazel**
-
+```
 sudo apt update && sudo apt install bazel 
 sudo apt-get install pkg-config zip g++ zlib1g-dev unzip python
 wget https://github.com/bazelbuild/bazel/releases/download/0.21.0/bazel-0.21.0-installer-linux-x86_64.sh
@@ -49,12 +49,14 @@ git clone https://github.com/tensorflow/tensorflow.git
 cd tensorflow
 git checkout v1.13.1
 ```
+
 **abseil-cpp**
 ```
 cd tensorflow
 git clone https://github.com/abseil/abseil-cpp.git
 ln -s abseil-cpp/absl ./absl
 ```
+
 **Copy Tensorflow Lib i,e .SO file to Shared Library Path**
 ```
 sudo cp /home/ranjeet/libtensorflow_cc.so /usr/lib/
