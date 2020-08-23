@@ -1,10 +1,6 @@
 # ICNet: A Framework for running an inference module using TensorFlow C++ API in ROS. (Semantic Segmentation)
 
-This code provides a framework to easily add architectures and datasets, in order to run an inference module using TensorFlow C++ API in ROS(Robotic operating system).
-It contains a full pipeline of different nodes performing different tasks in C++ using Tensorflow and OpenCV.
-There are four different nodes which take input data as an image and deliver a segmented output image data. 
-The whole process is carried out in a ROS Environment [ROS_Environment](https://gitlab.kpit.com/ravinas/production_mldl/-/tree/ICNet/catkin_ws).
-It can also be performed outside ROS environment, a separate directory is provided for the same [Non ROS-Environment](https://gitlab.kpit.com/ravinas/production_mldl/-/tree/ICNet/Icnet).
+This code provides a framework to easily add architectures and datasets, in order to run an inference module using TensorFlow C++ API. 
 
 ## Getting Started
 
